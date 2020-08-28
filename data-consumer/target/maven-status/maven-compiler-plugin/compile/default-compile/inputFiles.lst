@@ -1,2 +1,3 @@
-/home/rhertle/dev/quarkus-bbt/data-consumer/src/main/java/ch/puzzle/DataConsumerResource.java
-/home/rhertle/dev/quarkus-bbt/data-consumer/src/main/java/ch/puzzle/entity/BbtDataObject.java
+/home/lhabersaat/Projects/quarkus-bbt/data-consumer/src/main/java/ch/puzzle/consumer/boundary/DataTransformerService.java
+/home/lhabersaat/Projects/quarkus-bbt/data-consumer/src/main/java/ch/puzzle/consumer/boundary/DataConsumerResource.java
+/home/lhabersaat/Projects/quarkus-bbt/data-consumer/src/main/java/ch/puzzle/consumer/entity/BbtDataObject.java

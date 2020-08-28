@@ -9,7 +9,6 @@
         <module name="data-transformer" />
         <module name="data-consumer" />
         <module name="data-producer" />
-        <module name="data-parent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

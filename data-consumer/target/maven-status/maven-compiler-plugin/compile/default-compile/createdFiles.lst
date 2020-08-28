@@ -1,2 +1,3 @@
-ch/puzzle/DataConsumerResource.class
-ch/puzzle/entity/BbtDataObject.class
+ch/puzzle/consumer/boundary/DataTransformerService.class
+ch/puzzle/consumer/entity/BbtDataObject.class
+ch/puzzle/consumer/boundary/DataConsumerResource.class

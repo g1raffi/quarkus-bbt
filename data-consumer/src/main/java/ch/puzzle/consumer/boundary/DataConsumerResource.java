@@ -1,6 +1,7 @@
-package ch.puzzle;
+package ch.puzzle.consumer.boundary;
 
-import ch.puzzle.entity.BbtDataObject;
+import ch.puzzle.consumer.entity.BbtDataObject;
+import org.eclipse.microprofile.rest.client.inject.RestClient;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -12,15 +13,13 @@ public class DataConsumerResource {
 
     private final Logger logger = Logger.getLogger(DataConsumerResource.class.getName());
 
+    @RestClient
+    DataTransformerService dataTransformerService;
+
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public BbtDataObject getBbtDatObject() {
-        BbtDataObject object = new BbtDataObject();
-        object.value = Math.random();
-
-        logger.info(object.value.toString());
-
-        return object;
+        return dataTransformerService.getData();
     }
 
     @POST
@@ -30,5 +29,7 @@ public class DataConsumerResource {
         logger.info(data.value.toString());
         return Response.ok(data).build();
     }
+
+
 
 }

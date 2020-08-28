@@ -1,6 +1,6 @@
 package ch.puzzle;
 
-import ch.puzzle.entity.BbtDataObject;
+import ch.puzzle.consumer.entity.BbtDataObject;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

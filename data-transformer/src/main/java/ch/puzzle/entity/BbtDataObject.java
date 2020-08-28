@@ -1,4 +1,4 @@
-package ch.puzzle.entity;
+package ch.puzzle.consumer.entity;
 
 public class BbtDataObject {
     public Double value;
