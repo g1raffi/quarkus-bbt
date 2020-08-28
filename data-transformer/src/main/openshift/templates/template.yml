@@ -1,0 +1,96 @@
+apiVersion: v1
+kind: List
+metadata:
+  name: data-transformer
+items:
+  - apiVersion: v1
+    kind: ImageStream
+    metadata:
+      labels:
+        application: quarkus-bbt
+      name: data-transformer
+
+  - apiVersion: v1
+    kind: DeploymentConfig
+    metadata:
+      labels:
+        application: quarkus-bbt
+      name: data-transformer
+    spec:
+      replicas: 1
+      selector:
+        deploymentConfig: data-transformer
+      strategy:
+        activeDeadlineSeconds: 1200
+        rollingParams:
+          maxSurge: 0
+          maxUnavailable: 1
+        type: Rolling
+      template:
+        metadata:
+          labels:
+            application: quarkus-bbt
+            deploymentConfig: data-transformer
+        spec:
+          containers:
+            - image: data-transformer
+              imagePullPolicy: Always
+              livenessProbe:
+                failureThreshold: 5
+                httpGet:
+                  path: /health
+                  port: 8080
+                  scheme: HTTP
+                initialDelaySeconds: 3
+                periodSeconds: 20
+                successThreshold: 1
+                timeoutSeconds: 15
+              readinessProbe:
+                failureThreshold: 5
+                httpGet:
+                  path: /health
+                  port: 8080
+                  scheme: HTTP
+                initialDelaySeconds: 3
+                periodSeconds: 20
+                successThreshold: 1
+                timeoutSeconds: 15
+              name: data-transformer
+              ports:
+                - containerPort: 8080
+                  name: http
+                  protocol: TCP
+              resources:
+                limits:
+                  cpu: 1
+                  memory: 1Gi
+                requests:
+                  cpu: 50m
+                  memory: 100Mi
+      triggers:
+        - imageChangeParams:
+            automatic: true
+            containerNames:
+              - data-transformer
+            from:
+              kind: ImageStreamTag
+              name: data-transformer:latest
+          type: ImageChange
+        - type: ConfigChange
+
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      labels:
+        application: quarkus-bbt
+      name: data-transformer
+    spec:
+      ports:
+        - name: data-transformer-http
+          port: 8080
+          protocol: TCP
+          targetPort: 8080
+      selector:
+        deploymentConfig: data-transformer
+      sessionAffinity: None
+      type: ClusterIP
