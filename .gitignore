@@ -5,6 +5,8 @@
 bin/
 target/
 
+*.jar
+
 # IntelliJ
 .idea
 *.ipr
