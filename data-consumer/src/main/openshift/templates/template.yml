@@ -3,6 +3,7 @@ kind: List
 metadata:
   name: data-consumer
 items:
+
   - apiVersion: v1
     kind: ImageStream
     metadata:
@@ -10,10 +11,8 @@ items:
         application: quarkus-bbt
       name: data-consumer
 
-
   - apiVersion: v1
     kind: DeploymentConfig
-
     metadata:
       labels:
         application: quarkus-bbt
@@ -21,7 +20,7 @@ items:
     spec:
       replicas: 1
       selector:
-        detploymentConfig: data-consumer
+        deploymentConfig: data-consumer
       strategy:
         activeDeadlineSeconds: 1200
         rollingParams:
@@ -41,6 +40,7 @@ items:
                 failureThreshold: 5
                 httpGet:
                   path: /health
+                  port: 8080
                   scheme: HTTP
                 initialDelaySeconds: 3
                 periodSeconds: 20
@@ -50,6 +50,7 @@ items:
                 failureThreshold: 5
                 httpGet:
                   path: /health
+                  port: 8080
                   scheme: HTTP
                 initialDelaySeconds: 3
                 periodSeconds: 20
