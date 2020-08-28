@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcac586d-ea5a-4f0c-acc0-85cb9c5d5c4c" name="Default Changelist" comment="" />
+    <list default="true" id="d280a63b-d0b6-44b8-a4b2-07aa14354a94" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,8 +21,8 @@
     </option>
   </component>
   <component name="KubernetesApiPersistence">
-    <option name="context" value="pitc-orme-ormera-prod/console-appuio-ch:443/pitc-rhertle1" />
-    <option name="namespace" value="pitc-orme-ormera-prod" />
+    <option name="context" value="quarkus-techlab/api-ocp-aws-puzzle-ch:6443/rhertle" />
+    <option name="namespace" value="quarkus-techlab" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -31,7 +31,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1gd1qSZ0QCW8lzkgXOHN8gLTwU7" />
+  <component name="ProjectId" id="1gij5oo0V7QsbdlKOCmxy7dz5mc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,19 +46,57 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.acme.quickstart.entity" />
+      <recent name="ch.puzzle.entity" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="data-producer [compile,quarkus:dev]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+                <option value="quarkus:dev" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fcac586d-ea5a-4f0c-acc0-85cb9c5d5c4c" name="Default Changelist" comment="" />
-      <created>1598429845599</created>
+      <changelist id="d280a63b-d0b6-44b8-a4b2-07aa14354a94" name="Default Changelist" comment="" />
+      <created>1598604127716</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598429845599</updated>
-      <workItem from="1598429846636" duration="4701000" />
-      <workItem from="1598445549834" duration="13000" />
+      <updated>1598604127716</updated>
+      <workItem from="1598604128944" duration="2213000" />
     </task>
     <servers />
   </component>
@@ -66,9 +104,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1057" y="441" key="FileChooserDialogImpl" timestamp="1598441512341">
-      <screen x="0" y="0" width="5120" height="1440" />
+    <state x="414" y="122" width="1400" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598604671537">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1057" y="441" key="FileChooserDialogImpl/0.0.5120.1440@0.0.5120.1440" timestamp="1598441512341" />
+    <state x="414" y="122" width="1400" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598604671537" />
+    <state x="685" y="111" width="540" height="782" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598604773693">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="685" y="111" width="540" height="782" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598604773693" />
+    <state width="1872" height="288" key="GridCell.Tab.0.bottom" timestamp="1598604610106">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598604610106" />
+    <state width="1872" height="288" key="GridCell.Tab.0.center" timestamp="1598604610106">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="288" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598604610106" />
+    <state width="1872" height="288" key="GridCell.Tab.0.left" timestamp="1598604610105">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="288" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598604610105" />
+    <state width="1872" height="288" key="GridCell.Tab.0.right" timestamp="1598604610106">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="288" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598604610106" />
   </component>
 </project>
