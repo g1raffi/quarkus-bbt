@@ -1,6 +1,7 @@
-package ch.puzzle;
+package ch.puzzle.transformer.boundary;
 
 import ch.puzzle.consumer.entity.BbtDataObject;
+import org.eclipse.microprofile.rest.client.inject.RestClient;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -14,11 +15,12 @@ public class DataTransformResource {
 
     private final Logger logger = Logger.getLogger(DataTransformResource.class.getName());
 
+    @RestClient
+    DataProducerService dataProducerService;
+
     @GET
     public BbtDataObject getDataObject() {
-        BbtDataObject object = new BbtDataObject();
-        object.value = Math.random();
-        return object;
+        return dataProducerService.getData();
     }
 
     @POST
