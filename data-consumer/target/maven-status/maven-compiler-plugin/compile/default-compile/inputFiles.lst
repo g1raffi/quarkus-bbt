@@ -1,1 +1,2 @@
-/home/lhabersaat/Projects/bbt_quarkus/data-consumer/src/main/java/ch/puzzle/ExampleResource.java
+/home/rhertle/dev/quarkus-bbt/data-consumer/src/main/java/ch/puzzle/DataConsumerResource.java
+/home/rhertle/dev/quarkus-bbt/data-consumer/src/main/java/ch/puzzle/entity/BbtDataObject.java

@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d280a63b-d0b6-44b8-a4b2-07aa14354a94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="d280a63b-d0b6-44b8-a4b2-07aa14354a94" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -141,10 +139,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="685" y="111" width="540" height="782" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598604773693" />
-    <state x="261" y="277" width="428" height="478" key="FileChooserDialogImpl" timestamp="1598606853582">
+    <state x="259" y="251" width="435" height="478" key="FileChooserDialogImpl" timestamp="1598611927114">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="261" y="277" width="428" height="478" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1598606853582" />
+    <state x="259" y="251" width="435" height="478" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1598611927114" />
     <state width="1872" height="288" key="GridCell.Tab.0.bottom" timestamp="1598604610106">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
