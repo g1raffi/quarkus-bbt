@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d280a63b-d0b6-44b8-a4b2-07aa14354a94" name="Default Changelist" comment="" />
+    <list default="true" id="d280a63b-d0b6-44b8-a4b2-07aa14354a94" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="quarkus-techlab/api-ocp-aws-puzzle-ch:6443/rhertle" />
     <option name="namespace" value="quarkus-techlab" />
@@ -32,6 +37,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1gij5oo0V7QsbdlKOCmxy7dz5mc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,6 +51,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/ch/puzzle" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ch.puzzle.entity" />
     </key>
@@ -97,11 +106,25 @@
       <option name="presentableId" value="Default" />
       <updated>1598604127716</updated>
       <workItem from="1598604128944" duration="2213000" />
+      <workItem from="1598606509273" duration="327000" />
+      <workItem from="1598606846007" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="122" width="1400" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598604671537">
@@ -112,6 +135,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="685" y="111" width="540" height="782" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598604773693" />
+    <state x="261" y="277" width="428" height="478" key="FileChooserDialogImpl" timestamp="1598606853582">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="261" y="277" width="428" height="478" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1598606853582" />
     <state width="1872" height="288" key="GridCell.Tab.0.bottom" timestamp="1598604610106">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
